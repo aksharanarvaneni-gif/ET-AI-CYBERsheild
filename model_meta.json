@@ -1,0 +1,17 @@
+{
+  "threshold": 0.02549231760203838,
+  "f1_lstm": 0.23788546255506607,
+  "f1_iso": 0.17162471395881007,
+  "roc_auc": 0.8439761904761904,
+  "features": [
+    "login_hour",
+    "session_duration_min",
+    "bytes_transferred_mb",
+    "failed_logins",
+    "endpoints_accessed",
+    "sensitive_endpoints_hit",
+    "unique_ips",
+    "commands_executed"
+  ],
+  "seq_len": 10
+}
